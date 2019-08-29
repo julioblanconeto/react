@@ -1,33 +1,183 @@
-.App {
-  text-align: center;
+.BtnHome{
+  width:75px;
+  height: 75px;
+  background-image:  radial-gradient(#C7E2FE, #4D9BCE, #1F01FE);
+  border-radius: 50%;
+  border:none;
+  position: absolute;
+  bottom: 32%;
+  left:7%;
+  cursor: pointer;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.BtnHome:hover
+{
+  background-image:  radial-gradient(#1F01FE, #4D9BCE, #C7E2FE);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.BtnDetalhes
+{
+  cursor: pointer;
+  border-radius: 25px;
+  border: 1px solid black;
+  width:25%;
+  height: 40px;
+  position: absolute;
+  bottom: 35%;
+  left:30%;
+  background-image:  radial-gradient(white, #c2c2c2, silver);
 }
 
-.App-link {
-  color: #61dafb;
+.BtnDetalhes:hover
+{
+  background-image:  radial-gradient(silver, #c2c2c2, white);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.BtnSobre
+{
+  cursor: pointer;
+  border-radius: 25px;
+  border: 1px solid black;
+  width:25%;
+  height: 40px;
+  position: absolute;
+  bottom: 35%;
+  left:68%;
+  background-image:  radial-gradient(white, #c2c2c2, silver);
+}
+
+.BtnSobre:hover
+{
+  background-image:  radial-gradient(silver, #c2c2c2, white);
+}
+
+.bordaExterna
+{
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 96%;
+  height: 94%;
+  position: absolute;
+  left:2%;
+  top:3%;
+  background-color: red;
+
+}
+.bordaEsquerda
+{
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 46%;
+  height: 93%;
+  position: absolute;
+  left:2%;
+  top:3%;
+  background-color: red;
+}
+.bordaDireita
+{
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 46%;
+  height: 93%;
+  position: absolute;
+  right: 2%;
+  top:3%;
+  background-color: red;
+}
+.campoEsquerda{
+  border: 5px solid silver;
+  border-radius: 15px;
+  width: 92%;
+  height: 46%;
+  position: absolute;
+  left: 3%;
+  top:3%;
+  background-color: white;
+}
+.campoBaixo{
+  border: 5px solid silver;
+  border-radius: 15px;
+  width: 92%;
+  height: 25%;
+  position: absolute;
+  left: 3%;
+  bottom:3%;
+  background-color: white;
+}
+.campoDireita{
+  border: 5px solid silver;
+  border-radius: 15px;
+  width: 92%;
+  height: 93%;
+  position: absolute;
+  right: 3%;
+  top:3%;
+  background-color: white;
+}
+.pokebolaCima{
+  width:40px;
+  position: absolute;
+  left:50%;
+  margin-left:-20px;
+  top:0;
+  
+}
+.pokebolaBaixo{
+  width:40px;
+  position: absolute;
+  left:50%;
+  margin-left:-20px;
+  bottom:0;
+  
+}
+.meio
+{
+
+  border: 2px solid black;
+  border-radius: 30px;
+  width: 40px;
+  height: 99.5%;
+  position: absolute;
+  margin-left:-22px;
+  left:50%;
+  top:0;
+  background-color: red;
+
+
+}
+.bolinhaAzul{
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-image:  radial-gradient(white, blue, white);
+  
+  
+  left:40px;
+  top:1.5px;
+}
+.bolinhaVerde{
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-image:  radial-gradient(white, green, white);
+
+  
+  left:65px;
+  top:1.5px;
+}
+.bolinhaVermelha{
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-image:  radial-gradient(white, red, white);
+  
+  left:90px;
+  top:1.5px;
 }
