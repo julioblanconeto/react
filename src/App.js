@@ -7,10 +7,14 @@ import { detalhes } from './pages/detalhes';
 //import { naoencontrado } from './pages/naoencontrado';
 import "./App.css";
 import {Link } from 'react-router-dom';
+import Sound from 'react-sound';
+
+
 
 const Corpo = () =>{
   return <div className = "bordaExterna">
-
+        
+        
     
     <div className = "bordaEsquerda">
     <div className="bolinhaAzul"></div>
@@ -43,11 +47,19 @@ const Corpo = () =>{
     </div>
 </div>
 }
-
+const Audio =() =>{
+  return (
+    <Sound
+      url="/audio/pokemon.mp3"
+      playStatus={Sound.status.PLAYING}
+    />
+  );
+};
 
  function App() {
   return (
     <div>
+      <Audio/>
       <BrowserRouter>
       <Corpo/>
         <Switch>
