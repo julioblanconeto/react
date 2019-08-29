@@ -1,11 +1,11 @@
 .BtnHome{
-  width:75px;
-  height: 75px;
+  width:13%;
+  height: 13%;
   background-image:  radial-gradient(#C7E2FE, #4D9BCE, #1F01FE);
   border-radius: 50%;
   border:none;
   position: absolute;
-  bottom: 32%;
+  bottom: 33%;
   left:7%;
   cursor: pointer;
 }
@@ -22,7 +22,7 @@
   border-radius: 25px;
   border: 1px solid black;
   width:25%;
-  height: 40px;
+  height: 7%;
   position: absolute;
   bottom: 35%;
   left:30%;
@@ -40,7 +40,7 @@
   border-radius: 25px;
   border: 1px solid black;
   width:25%;
-  height: 40px;
+  height: 7%;
   position: absolute;
   bottom: 35%;
   left:68%;
@@ -117,18 +117,14 @@
   background-color: white;
 }
 .pokebolaCima{
-  width:40px;
+  width:98%;
   position: absolute;
-  left:50%;
-  margin-left:-20px;
   top:0;
   
 }
 .pokebolaBaixo{
-  width:40px;
+  width:98%;
   position: absolute;
-  left:50%;
-  margin-left:-20px;
   bottom:0;
   
 }
@@ -137,11 +133,10 @@
 
   border: 2px solid black;
   border-radius: 30px;
-  width: 40px;
+  width: 3.08%;
   height: 99.5%;
   position: absolute;
-  margin-left:-22px;
-  left:50%;
+  left:48.3%;
   top:0;
   background-color: red;
 
@@ -150,8 +145,8 @@
 .bolinhaAzul{
   border: 1px solid black;
   border-radius: 30px;
-  width: 10px;
-  height: 10px;
+  width: 1.5%;
+  height: 1.5%;
   position: absolute;
   background-image:  radial-gradient(white, blue, white);
   
@@ -162,8 +157,8 @@
 .bolinhaVerde{
   border: 1px solid black;
   border-radius: 30px;
-  width: 10px;
-  height: 10px;
+  width: 1.5%;
+  height: 1.5%;
   position: absolute;
   background-image:  radial-gradient(white, green, white);
 
@@ -174,8 +169,8 @@
 .bolinhaVermelha{
   border: 1px solid black;
   border-radius: 30px;
-  width: 10px;
-  height: 10px;
+  width: 1.5%;
+  height: 1.5%;
   position: absolute;
   background-image:  radial-gradient(white, red, white);
   
