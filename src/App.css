@@ -3,7 +3,7 @@
   height: 13%;
   background-image:  radial-gradient(#C7E2FE, #4D9BCE, #1F01FE);
   border-radius: 50%;
-  border:none;
+  border:solid 1px black;
   position: absolute;
   bottom: 33%;
   left:7%;
