@@ -9,29 +9,23 @@ import "./App.css";
 import {Link } from 'react-router-dom';
 import Sound from 'react-sound';
 
-
-
 const Corpo = () =>{
   return <div className = "bordaExterna">
         
-        
-    
     <div className = "bordaEsquerda">
-    <div className="bolinhaAzul"></div>
-    <div className="bolinhaVerde"></div>
-    <div className="bolinhaVermelha"></div>
-        <div className = "campoEsquerda">
-        </div>
-        
+      <div className="bolinhaAzul"></div>
+      <div className="bolinhaVerde"></div>
+      <div className="bolinhaVermelha"></div>
+      <div className = "campoEsquerda">
+      </div>
 
-          <Link to="./home"><div className = "BtnHome"/></Link>   
+      <Link to="./home"><div className = "BtnHome"/></Link>   
+      <Link to="./detalhes"><div className = "BtnDetalhes"/></Link>
+      <Link to="./sobre"><div className = "BtnSobre" /></Link>
 
-          <Link to="./detalhes"><div className = "BtnDetalhes"/></Link>
-          <Link to="./sobre"><div className = "BtnSobre" /></Link>
+      <div className = "campoBaixo" >
 
-        <div className = "campoBaixo" >
-
-        </div>
+      </div>
     </div>
     <div className = "meio">
 
@@ -40,12 +34,12 @@ const Corpo = () =>{
       
     </div>
     <div className = "bordaDireita">
-        <div className= "campoDireita">
+      <div className= "campoDireita">
 
-        </div>
+      </div>
 
     </div>
-</div>
+  </div>
 }
 const Audio =() =>{
   return (
@@ -53,7 +47,6 @@ const Audio =() =>{
       url="/audio/pokemon.mp3"
       playStatus={Sound.status.PLAYING}
       //playStatus={Sound.status.STOP}
-
     />
   );
 };
