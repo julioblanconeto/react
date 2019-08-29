@@ -52,6 +52,8 @@ const Audio =() =>{
     <Sound
       url="/audio/pokemon.mp3"
       playStatus={Sound.status.PLAYING}
+      //playStatus={Sound.status.STOP}
+
     />
   );
 };
